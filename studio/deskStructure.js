@@ -18,9 +18,9 @@ export default () =>
         )
         .icon(MdSettings),
       S.listItem()
-        .title('Sample projects')
+        .title('Sample posts')
         .schemaType('sampleProject')
-        .child(S.documentTypeList('sampleProject').title('Sample projects')),
+        .child(S.documentTypeList('sampleProject').title('Posts')),
       S.listItem()
         .title('People')
         .schemaType('person')

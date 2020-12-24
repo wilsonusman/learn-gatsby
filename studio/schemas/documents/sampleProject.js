@@ -2,7 +2,7 @@ import {format} from 'date-fns'
 
 export default {
   name: 'sampleProject',
-  title: 'Sample project',
+  title: 'Posts',
   type: 'document',
   fields: [
     {
@@ -65,7 +65,7 @@ export default {
     },
     {
       name: 'relatedProjects',
-      title: 'Related projects',
+      title: 'Related posts',
       type: 'array',
       of: [{type: 'reference', to: {type: 'sampleProject'}}]
     }
